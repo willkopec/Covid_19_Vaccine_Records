@@ -1,0 +1,15 @@
+CREATE INDEX patient_last_name ON patient(last_name);
+
+CREATE INDEX contact_phone ON contact(phone_num);
+
+CREATE INDEX physician_state ON  primary_physician(p_state);
+
+CREATE INDEX covid_date ON medical_history(contracted_covid);
+
+CREATE INDEX address_state ON address(state);
+
+CREATE INDEX lot_dose_1 ON dose_1(lot_num_1);
+
+CREATE INDEX lot_dose_2 ON dose_2(lot_num_2);
+
+CREATE INDEX type_booster ON booster(b_type);

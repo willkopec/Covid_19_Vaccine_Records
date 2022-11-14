@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>CS480 Demo</display-name>
+    <servlet>
+    <description></description>
+    <display-name>Entity1ServletCreate</display-name>
+    <servlet-name>Entity1ServletCreate</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletCreate</servlet-name>
+    <url-pattern>/Entity1ServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Entity1ServletRead</display-name>
+    <servlet-name>Entity1ServletRead</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletRead</servlet-name>
+    <url-pattern>/Entity1ServletRead</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>Entity1ServletUpdate</display-name>
+    <servlet-name>Entity1ServletUpdate</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletUpdate</servlet-name>
+    <url-pattern>/Entity1ServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>Entity1ServletDelete</display-name>
+    <servlet-name>Entity1ServletDelete</servlet-name>
+    <servlet-class>entity1.web.servlet.Entity1ServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Entity1ServletDelete</servlet-name>
+    <url-pattern>/Entity1ServletDelete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UserServletRegister</display-name>
+    <servlet-name>UserServletRegister</servlet-name>
+    <servlet-class>user.web.servlet.UserServletRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletRegister</servlet-name>
+    <url-pattern>/UserServletRegister</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>PatientServletCreate</display-name>
+    <servlet-name>PatientServletCreate</servlet-name>
+    <servlet-class>patient.web.servlet.PatientServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientServletCreate</servlet-name>
+    <url-pattern>/PatientServletCreate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>PatientServletRead</display-name>
+    <servlet-name>PatientServletRead</servlet-name>
+    <servlet-class>patient.web.servlet.PatientServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientServletRead</servlet-name>
+    <url-pattern>/PatientServletRead</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>PatientServletDelete</display-name>
+    <servlet-name>PatientServletDelete</servlet-name>
+    <servlet-class>patient.web.servlet.PatientServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientServletDelete</servlet-name>
+    <url-pattern>/PatientServletDelete</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>PatientServletUpdate</display-name>
+    <servlet-name>PatientServletUpdate</servlet-name>
+    <servlet-class>patient.web.servlet.PatientServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PatientServletUpdate</servlet-name>
+    <url-pattern>/PatientServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>ContactServletCreate</display-name>
+    <servlet-name>ContactServletCreate</servlet-name>
+    <servlet-class>contact.web.servlet.ContactServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactServletCreate</servlet-name>
+    <url-pattern>/ContactServletCreate</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <description></description>
+    <display-name>ContactServletRead</display-name>
+    <servlet-name>ContactServletRead</servlet-name>
+    <servlet-class>contact.web.servlet.ContactServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactServletRead</servlet-name>
+    <url-pattern>/ContactServletRead</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>ContactServletDelete</display-name>
+    <servlet-name>ContactServletDelete</servlet-name>
+    <servlet-class>contact.web.servlet.ContactServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactServletDelete</servlet-name>
+    <url-pattern>/ContactServletDelete</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <description></description>
+    <display-name>ContactServletUpdate</display-name>
+    <servlet-name>ContactServletUpdate</servlet-name>
+    <servlet-class>contact.web.servlet.ContactServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContactServletUpdate</servlet-name>
+    <url-pattern>/ContactServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Primary_physicianServletCreate</display-name>
+    <servlet-name>Primary_physicianServletCreate</servlet-name>
+    <servlet-class>primary_physician.web.servlet.Primary_physicianServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Primary_physicianServletCreate</servlet-name>
+    <url-pattern>/Primary_physicianServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Primary_physicianServletRead</display-name>
+    <servlet-name>Primary_physicianServletRead</servlet-name>
+    <servlet-class>primary_physician.web.servlet.Primary_physicianServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Primary_physicianServletRead</servlet-name>
+    <url-pattern>/Primary_physicianServletRead</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>Primary_physicianServletDelete</display-name>
+    <servlet-name>Primary_physicianServletDelete</servlet-name>
+    <servlet-class>primary_physician.web.servlet.Primary_physicianServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Primary_physicianServletDelete</servlet-name>
+    <url-pattern>/Primary_physicianServletDelete</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>Primary_physicianServletUpdate</display-name>
+    <servlet-name>Primary_physicianServletUpdate</servlet-name>
+    <servlet-class>primary_physician.web.servlet.Primary_physicianServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Primary_physicianServletUpdate</servlet-name>
+    <url-pattern>/Primary_physicianServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  
+<servlet>
+    <description></description>
+    <display-name>Medical_HistoryServletCreate</display-name>
+    <servlet-name>Medical_HistoryServletCreate</servlet-name>
+    <servlet-class>medical_history.web.servlet.Medical_HistoryServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Medical_HistoryServletCreate</servlet-name>
+    <url-pattern>/Medical_HistoryServletCreate</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>Medical_HistoryServletRead</display-name>
+    <servlet-name>Medical_HistoryServletRead</servlet-name>
+    <servlet-class>medical_history.web.servlet.Medical_HistoryServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Medical_HistoryServletRead</servlet-name>
+    <url-pattern>/Medical_HistoryServletRead</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>Medical_HistoryServletUpdate</display-name>
+    <servlet-name>Medical_HistoryServletUpdate</servlet-name>
+    <servlet-class>medical_history.web.servlet.Medical_HistoryServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Medical_HistoryServletUpdate</servlet-name>
+    <url-pattern>/Medical_HistoryServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>Medical_HistoryServletDelete</display-name>
+    <servlet-name>Medical_HistoryServletDelete</servlet-name>
+    <servlet-class>medical_history.web.servlet.Medical_HistoryServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Medical_HistoryServletDelete</servlet-name>
+    <url-pattern>/Medical_HistoryServletDelete</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <description></description>
+    <display-name>Dose1ServletCreate</display-name>
+    <servlet-name>Dose1ServletCreate</servlet-name>
+    <servlet-class>dose_1.web.servlet.Dose1ServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose1ServletCreate</servlet-name>
+    <url-pattern>/Dose1ServletCreate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Dose_2ServletCreate</display-name>
+    <servlet-name>Dose_2ServletCreate</servlet-name>
+    <servlet-class>dose_2.web.servlet.Dose_2ServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose_2ServletCreate</servlet-name>
+    <url-pattern>/Dose_2ServletCreate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Booster_DoseServletCreate</display-name>
+    <servlet-name>Booster_DoseServletCreate</servlet-name>
+    <servlet-class>booster_dose.web.servlet.Booster_DoseServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Booster_DoseServletCreate</servlet-name>
+    <url-pattern>/Booster_DoseServletCreate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Dose1ServletRead</display-name>
+    <servlet-name>Dose1ServletRead</servlet-name>
+    <servlet-class>dose_1.web.servlet.Dose1ServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose1ServletRead</servlet-name>
+    <url-pattern>/Dose1ServletRead</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Dose_2ServletRead</display-name>
+    <servlet-name>Dose_2ServletRead</servlet-name>
+    <servlet-class>dose_2.web.servlet.Dose_2ServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose_2ServletRead</servlet-name>
+    <url-pattern>/Dose_2ServletRead</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Booster_DoseServletRead</display-name>
+    <servlet-name>Booster_DoseServletRead</servlet-name>
+    <servlet-class>booster_dose.web.servlet.Booster_DoseServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Booster_DoseServletRead</servlet-name>
+    <url-pattern>/Booster_DoseServletRead</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Dose1ServletDelete</display-name>
+    <servlet-name>Dose1ServletDelete</servlet-name>
+    <servlet-class>dose_1.web.servlet.Dose1ServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose1ServletDelete</servlet-name>
+    <url-pattern>/Dose1ServletDelete</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Dose_2ServletDelete</display-name>
+    <servlet-name>Dose_2ServletDelete</servlet-name>
+    <servlet-class>dose_2.web.servlet.Dose_2ServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose_2ServletDelete</servlet-name>
+    <url-pattern>/Dose_2ServletDelete</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Booster_DoseServletDelete</display-name>
+    <servlet-name>Booster_DoseServletDelete</servlet-name>
+    <servlet-class>booster_dose.web.servlet.Booster_DoseServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Booster_DoseServletDelete</servlet-name>
+    <url-pattern>/Booster_DoseServletDelete</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Dose1ServletUpdate</display-name>
+    <servlet-name>Dose1ServletUpdate</servlet-name>
+    <servlet-class>dose_1.web.servlet.Dose1ServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose1ServletUpdate</servlet-name>
+    <url-pattern>/Dose1ServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Dose_2ServletUpdate</display-name>
+    <servlet-name>Dose_2ServletUpdate</servlet-name>
+    <servlet-class>dose_2.web.servlet.Dose_2ServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dose_2ServletUpdate</servlet-name>
+    <url-pattern>/Dose_2ServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>Booster_DoseServletUpdate</display-name>
+    <servlet-name>Booster_DoseServletUpdate</servlet-name>
+    <servlet-class>booster_dose.web.servlet.Booster_DoseServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Booster_DoseServletUpdate</servlet-name>
+    <url-pattern>/Booster_DoseServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AddressServletCreate</display-name>
+    <servlet-name>AddressServletCreate</servlet-name>
+    <servlet-class>address.web.servlet.AddressServletCreate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddressServletCreate</servlet-name>
+    <url-pattern>/AddressServletCreate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>AddressServletRead</display-name>
+    <servlet-name>AddressServletRead</servlet-name>
+    <servlet-class>address.web.servlet.AddressServletRead</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddressServletRead</servlet-name>
+    <url-pattern>/AddressServletRead</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>AddressServletDelete</display-name>
+    <servlet-name>AddressServletDelete</servlet-name>
+    <servlet-class>address.web.servlet.AddressServletDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddressServletDelete</servlet-name>
+    <url-pattern>/AddressServletDelete</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>AddressServletUpdate</display-name>
+    <servlet-name>AddressServletUpdate</servlet-name>
+    <servlet-class>address.web.servlet.AddressServletUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddressServletUpdate</servlet-name>
+    <url-pattern>/AddressServletUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>minPhone</display-name>
+    <servlet-name>minPhone</servlet-name>
+    <servlet-class>primary_physician.web.servlet.minPhone</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>minPhone</servlet-name>
+    <url-pattern>/minPhone</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>InitializeDB</display-name>
+    <servlet-name>InitializeDB</servlet-name>
+    <servlet-class>init.web.servlet.InitializeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InitializeDB</servlet-name>
+    <url-pattern>/InitializeDB</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>UserServletLogin</display-name>
+    <servlet-name>UserServletLogin</servlet-name>
+    <servlet-class>user.web.servlet.UserServletLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletLogin</servlet-name>
+    <url-pattern>/UserServletLogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>UserServletLogout</display-name>
+    <servlet-name>UserServletLogout</servlet-name>
+    <servlet-class>user.web.servlet.UserServletLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServletLogout</servlet-name>
+    <url-pattern>/UserServletLogout</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>findAll</display-name>
+    <servlet-name>findAll</servlet-name>
+    <servlet-class>user.web.servlet.findAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>findAll</servlet-name>
+    <url-pattern>/findAll</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>ILPhys</display-name>
+    <servlet-name>ILPhys</servlet-name>
+    <servlet-class>primary_physician.web.servlet.ILPhys</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ILPhys</servlet-name>
+    <url-pattern>/ILPhys</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>CovidDates</display-name>
+    <servlet-name>CovidDates</servlet-name>
+    <servlet-class>medical_history.web.servlet.CovidDates</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CovidDates</servlet-name>
+    <url-pattern>/CovidDates</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+    <servlet>
+    <description></description>
+    <display-name>gmailEmails</display-name>
+    <servlet-name>gmailEmails</servlet-name>
+    <servlet-class>contact.web.servlet.gmailEmails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>gmailEmails</servlet-name>
+    <url-pattern>/gmailEmails</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>stringAggregate</display-name>
+    <servlet-name>stringAggregate</servlet-name>
+    <servlet-class>patient.web.servlet.stringAggregate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>stringAggregate</servlet-name>
+    <url-pattern>/stringAggregate</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <description></description>
+    <display-name>complexExist</display-name>
+    <servlet-name>complexExist</servlet-name>
+    <servlet-class>primary_physician.web.servlet.complexExist</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>complexExist</servlet-name>
+    <url-pattern>/complexExist</url-pattern>
+  </servlet-mapping>
+  
+  	<servlet>
+    <description></description>
+    <display-name>LatestByType</display-name>
+    <servlet-name>LatestByType</servlet-name>
+    <servlet-class>dose_2.web.servlet.LatestByType</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LatestByType</servlet-name>
+    <url-pattern>/LatestByType</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

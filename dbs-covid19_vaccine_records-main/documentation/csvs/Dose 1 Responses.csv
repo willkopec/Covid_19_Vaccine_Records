@@ -1,0 +1,6 @@
+patient_id,Type,Lot number,Date of dose,Location
+1,Moderna,JW2765,2021-01-01,CVS
+2,Moderna,FH1047,2020-12-11,CVS
+3,Pfizer,P6136A,2021-07-11,Walgreens
+4,J&J,FG8906,2021-05-15,Costco
+5,J&J,FG3678,2021-02-10,Costco
